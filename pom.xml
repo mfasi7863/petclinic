@@ -419,13 +419,13 @@
         <repository>
             <id>nexus-releases</id>
             <url>http://13.204.53.88:8081/repository/maven-releases/</url>
-            <allowInsecureProtocol>true</allowInsecureProtocol>
+            
         </repository>
 
         <snapshotRepository>
             <id>nexus-snapshots</id>
             <url>http://13.204.53.88:8081/repository/maven-snapshots/</url>
-            <allowInsecureProtocol>true</allowInsecureProtocol>
+            
         </snapshotRepository>
       </distributionManagement>
     </profile>
